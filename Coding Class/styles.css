@@ -1,0 +1,95 @@
+p {
+  text-align: center
+}
+p::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
+body {
+    background-color: rgba(83, 194, 194, 0.705);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+nav {
+  font-size: large;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px #615e5e;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  word-spacing: 10px;
+}
+header {
+  color: rgba(0, 0, 255, 0.596); 
+  font-size: xx-large; 
+  line-height: 1.6;
+  letter-spacing: 2px;
+  background-color: plum;
+  border-style: groove;
+  border-color: goldenrod;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px #615e5e;
+}
+.container {
+    border: 5px solid goldenrod;
+    height: 500px
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=button] {
+  background-color: #04aaa2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #4f89b1;
+}
+.col-left {
+    float: left;
+    border: 5px solid rgb(248, 163, 177);
+    width: 55%;
+    font-size: x-large;
+    padding: 20px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 5px 10px 8px #888888;
+}
+.col-right {
+    float: right;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    border: 5px solid rgb(248, 163, 177);
+    width: 400px; 
+    padding: 20px;
+    background-image: url("organizing-unsplash8.jpg");
+    background-size: 500px 800px;
+    background-repeat: no-repeat;
+    color:white;
+    box-shadow: 5px 10px 8px #888888;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.col-bottom {
+  float: bottom center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(0, 0, 255, 0.596); 
+    font-size:medium; 
+    background-color: plum
+}
